@@ -23,6 +23,16 @@ body {
   margin-right: 1.5rem;
   padding: 1.50rem;
   border-radius: 10px;
+  min-width: 215px;
+}
+
+@media only screen and (min-width: 440px) {
+  .CardContainer {
+    max-width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5rem;
+  }
 }
 
 .CardImageContainer {
@@ -155,8 +165,8 @@ body {
   font-size: 0.5rem;
   color: white;
   margin-top: 0;
-  margin-left: 1.5rem;
-  margin-right: 1.5rem;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 0;
 }
 /*# sourceMappingURL=style.css.map */

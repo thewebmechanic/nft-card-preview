@@ -22,7 +22,15 @@ body {
     margin-right: 1.5rem;
     padding: 1.50rem;
     border-radius: 10px;
+    min-width: 215px;
+    
+    @media only screen and (min-width: 440px){
+        max-width: 350px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5rem;
         
+    }
 }
 
 .CardImageContainer {
@@ -37,8 +45,7 @@ body {
     grid-row: 1;
     z-index: 1;
     height: auto;
-    // padding-top: 60%;
-    // padding-left: 60%;
+
 }
 
 .ImageTop:hover {
@@ -132,7 +139,7 @@ body {
     font-size: 0.5rem;
     color: white;
     margin-top: 0;
-    margin-left: 1.5rem;
-    margin-right: 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 0;
 }
